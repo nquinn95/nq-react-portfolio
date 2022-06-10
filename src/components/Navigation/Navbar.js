@@ -11,6 +11,7 @@ import {
  } from 'reactstrap';
 
 
+
 const NavBar = (props) => {
 
 const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,7 @@ return(
           </NavLink>
         </NavItem>
         <NavItem >
-        <NavLink style={{color: '#FBFBFB' }} href="/projects/">
+        <NavLink style={{color: '#FBFBFB' }} href="/projects">
             Projects
           </NavLink>
         </NavItem>
