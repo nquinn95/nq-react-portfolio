@@ -1,7 +1,7 @@
-import React from 'react';
-import ProjCard from '../components/ProjCard';
+import {React} from 'react';
+import {ProjCard} from '../components/ProjCard';
 
-Projects = () =>{
+ProjCardsApp = () => {
     return(
         <>
         <div>
@@ -13,7 +13,7 @@ Projects = () =>{
     );
 };
 
+ProjCardsApp
 
 
-
-export default Projects;
+export default ProjCardsApp
